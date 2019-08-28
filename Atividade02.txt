@@ -1,14 +1,22 @@
 1. Converta cada DER em um esquema do modelo relacional.
 
-
 a)
   0 codigo     
   │    O nome
 ┌─┴────┴─┐   
-│ Leitor ├─── 
+│ Leitor ├───<> 
 └─┬──────┘   
   O telefone
 
+
+ (*) codigo 
+  |  ( ) nome
+  |   |           +
++--------+       / \       +-------+
+| Leitor |------+   +------| Livro |
++--------+       \ /       +-------+
+    |             +
+   ( ) telefone 
 
 ┌ ─ ┐
 

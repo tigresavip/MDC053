@@ -1,3 +1,7 @@
+1. Converta cada DER em um esquema do modelo relacional.
+
+
+a)
   0 codigo     
   │    O nome
 ┌─┴────┴─┐   

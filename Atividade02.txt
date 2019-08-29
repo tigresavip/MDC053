@@ -9,7 +9,6 @@ a)
    +--------------+         \ /          +-------------+        \ /
                              +                |      | (0,N)     +
                            lota       salario( )     +-----------+
-                                                     
 
 b)
     ( )logradouro                     (*)id
@@ -69,7 +68,7 @@ d)
    +------------+    data( )--\ /--( )qtde   +------------+
                                +          
                             fornece
-                            
+          
 e)
     (*)matricula                (*)numero                   (*)matricula
      | ( )nome                   | ( )sala                   | ( )nome

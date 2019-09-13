@@ -3,7 +3,7 @@
 a) Projeto (numero_empregado, nome_empregado, numero_depto, nome_depto, numero_gerente, nome_gerente, numero_projeto, nome_projeto, data_inicio_projeto, horas_trabalhadas_projeto).
 
 Chave(s): numero_projeto
-Dependência(s): numero_projeto -> numero_depto, nome_projeto, data_inicio_projeto, numero_gerente, nome_gerente                
+Dependência(s): numero_projeto -> nome_projeto, data_inicio_projeto, numero_gerente, nome_gerente                
                 numero_empregado -> nome_empregado, numero_depto, nome_depto, horas_trabalhadas_projeto
                 numero_depto -> nome_depto
                 numero_gerente -> nome_gerente

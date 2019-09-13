@@ -1,22 +1,17 @@
 1. Aplique a 1FN, 2FN e 3FN para cada tabela não normalizada.
 
 a) Projeto (numero_empregado, nome_empregado, numero_depto, nome_depto, numero_gerente, nome_gerente, numero_projeto, nome_projeto, data_inicio_projeto, horas_trabalhadas_projeto).
-            ────────────────                                                                          ──────────────
-            
+
+Chave: numero_projeto, numero_empregado
+Dependência: numero_projeto -> numero_depto, nome_projeto, data_inicio_projeto, 
+             numero_empregado -> 
+
 b) Pedido (cod_pedido, dat_emissao, cod_fornecedor, nom_fornecedor, end_fornecedor, cod_material, dsc_material, qtd_pedido, vlr_unitario, vl_total_material, vlr_total_pedido).
-           ──────────                                                               ────────────                      
            
 c) Turma (codigo_aluno, nome_aluno, fone_contato, ano_admissao, codigo_disciplina, nome_disciplina, cod_curso, nome_curso, data_matricula).
-          ────────────                                          ─────────────────                   ───────── 
           
 d) Consulta (num_paciente, nome_paciente, num_consulta, data_consulta, dsc_diagnostico, cod_medico, nome_medico, cod_especialidade, dsc_especialidade).
-                                          ────────────
 
 e) Conta (cod_banco, nom_banco, cod_agencia, nom_agencia, cpf_cliente, nom_cliente, dat_nascimento, num_conta, vlr_saldo)
-                                                                                                    ─────────
                                                                                                     
-f) Locacao
-
-g)
-
-h)
+f) Emprestimo (num_matricula, nom_aluno, num_isbn, tit_livro, cod_autor, nom_autor, num_paginas, cod_editora, nom_editora)

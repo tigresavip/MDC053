@@ -1,0 +1,21 @@
+a) select nom_professor from professor;
+
+b)select nom_aluno from aluno where nom_aluno like '%A';
+
+c)SHOW KEYS FROM matricula WHERE Key_name = 'PRIMARY'
+SELECT numero_faltas WHERE id_turma = 1;
+SELECT media_final WHERE id_turma = 1;
+
+d)SELECT id_aluno FROM historico WHERE media_final < 5;
+
+e)SELECT id_aluno FROM historico WHERE num_faltas < 75% OR media_final < 5;
+
+f)SELECT nome_aluno WHERE nome_professor = "JOSE REGINALDO" ORDER BY nome_aluno ASC;
+
+g)SELECT id_disciplina FROM turma WHERE NOT id_professor = 1;
+
+h)SELECT AVG(nota_aluno) FROM turma;
+
+i)SELECT COUNT(id_aluno) FROM turma WHERE nome_matricula = "BANCO DE DADOS I";
+
+j)SELECT nome_aluno WHERE matricula = *;
